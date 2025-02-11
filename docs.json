@@ -22,6 +22,24 @@
             ]
           },
           {
+            "group": "Bot",
+            "pages": [
+              {
+                "group": "Raids",
+                "pages": [
+                  "raids/overview",
+                  "raids/link",
+                  "raids/smartreply",
+                  "raids/settings",
+                  "raids/pro",
+                  "raids/leaderboard",
+                  "raids/autoraid",
+                  "raids/export"
+                ]
+              }
+            ]
+          },
+          {
             "group": "Get Started (Users)",
             "pages": [
               "essentials/markdown",
@@ -30,25 +48,6 @@
               "essentials/settings",
               "essentials/navigation",
               "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
             ]
           }
         ]

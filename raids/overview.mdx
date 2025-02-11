@@ -1,0 +1,105 @@
+---
+title: 'Overview'
+description: "Gather a solid understanding of the different types of raids and how they work in Hyper."
+---
+
+Cursor Tab is our native autocomplete feature. It’s a more powerful Copilot that suggests entire diffs with especially good memory.
+
+<Frame>
+  <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full"
+  src="https://mintlify-videos.s3.eu-central-1.amazonaws.com/StandardRaid.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6ODU5AMMG36Y3MQJ%2F20250211%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20250211T224105Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCIQCusv%2BoeLaHrdLDFYU%2B2HY7VqOq6fvAmtQIpwnvCz%2F%2B4gIgO4ExUg0YUsithQsDeakiKmn2z5SsfNbTE86jQMpPFMQq9QII4P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw5OTIzODI2MTYzNDQiDKr1cJW7u%2FPZHho1TSrJAnKGTmuZ%2BMwP9ttKIJsa6zTRJlSwYlZcMTSBO1zPPQ9zBwYkuX4m%2BKKlBKfK9qUHYhX1ZBa7B8GG5V9VCwTRXhg3odYjFgUI7wpDU%2FZDR3sWBZVJfNHtspkr41ptHl8l2fCw4BjnA9yE2lMxQJtGlvqPBLsyQQ3pEaWrLeVhFh%2FD%2BN%2BCLaoiw%2F97gA8TQNqmZ2V4y4WoLOh6QjjaUJyV9vwtKNhrqAS%2BoMpt7D0w%2FaGQM3XL17YWDHoDw%2FLHmKSpiJp2sdwVtQVC8wcH21fSZMMo7NJPAhCInjcyWl7BePE8h7q8TA8botK7TyOFDIo3pePHgJsr%2FKtJWk2ShnANYcP6udPL8nqCZqXn7QIasnQW5gpOx557K5YZEUChoRg%2BV26ZDqoT9BpSb7tyIXHQ0tDkpPkv9UgN1OUPxMfal0AP%2FLRg8ugfdC3HMKqjr70GOrMCoTkV%2F6CAdsDAeSooDST1V9eEPASzfpqov%2Bmjnd9K1uWgEhSn7eVaDogoAu%2BwEiyPT7keYOWiIVC3fOa3TDcsJbHCKPWlRkdr6hlCQodE993O2gG7WlS%2B1o7UFaOnsaLg167WZ37W%2Ba0MPNHiYhb6W39ZZT2rOBQv1rp4pS0t%2FiA1biPAVEe5dhMhCiff6I%2BO6B6VXwt5fJqby5KKfyLGHlWH%2BLtv6iw2Y6V1agjqh%2F4JI2TMsu3umDQFTlvxfG7TgpPOWCrYe4xssVd36O0oTSXhq4IeCAZAGk4jE4kqWZ6SfvtIOgobZPvWrZKLHLIdFE52rI5b29M%2B1lr8zawSsdxO6fHP2jMagVNDsx7HAUD9gxfhfVfdVL0EsliXyVJg1gq4bNMhfgRHlJy0WQ926lunZw%3D%3D&X-Amz-Signature=b72a6927c01d76d7b8d625baadb0e602a9374904f62bc6cce6d03c4e3cb59a2e&X-Amz-SignedHeaders=host&response-content-disposition=inline"
+></video>
+</Frame>
+
+{/* Let's explore the key **Terminology** and raid types in Hyper. The bot supports three distinct types of raids:
+- **Standard Raids**: Raids made via the `/raid` command are the core function of Hyper, and often referred to as "Standard Raids". It allows you to start or queue a raid with a single command by providing a URL of the tweet you want to raid, and you can configure it to your desired settings. **This section will cover how to use the `/raid` command.**
+- **SmartReply Raids**: Raids made via SmartReply are the second type of raid. If enabled, admins can AI-generate a Reply to a tweet which is currently being raided. Once the AI-generated reply is posted on X (via a Linked X Account), the reply will be raided and overrwrite (cancel) the current raid. To understand how SmartReply works, read the [SmartReply](/smartreply) section.
+- **AutoRaid Raids (PRO)**: Raids made via AutoRaid are the third type of raid. It allows you to add KOLs that are scanned every minute on X for new Tweets which will be automatically raided when they are detected. To understand how AutoRaid works, read the [AutoRaid](/autoraid) section. */}
+
+### Raid Management
+
+Raids made using the `/raid` command is a core function of Hyper. It allows you to start or queue a raid, and configure it to your desired settings.
+- **Modify Targets**: Adjust the engagement targets (or defaults) for raids, such as the number of likes, retweets, replies, bookmarks, switch the target mode, and enable/disable them as you see fit.
+- **Adding to Queue**: Easily add a raid to your raid queue which will be started in the order they were added after every raid has finished.
+- **Cancelling Raids**: Learn how to cancel an active raid.
+
+Learn more about [Managing Raids](/raids) to see how the `/raid` command works.
+
+### Queue Management
+
+You can manage the queue via the `/queue` command. Raids added to the queue via /raid or AutoRaid will be started in the order they were added after every raid has finished.
+- **Reorder Queue**: Easily reorder the queue by dragging and dropping raids using the UI.
+- **Force Start**: Force start a raid in the queue, even if it's not the first position.
+- **Remove from Queue**: Remove a raid from the queue with ease.
+- **Preview Tweet**: Preview the tweet that will be raided before it's executed.
+- **Clear Queue**: Clear the entire queue.
+
+Learn more about [Managing the Queue](/queue) to see how the `/queue` command works.
+
+### SmartReply
+
+You can setup & manage SmartReply Settings by using the `/smartreply` command. Manage *SmartReply Contexts* that will be used to generate SmartReplies on active raids, and Link shared X Accounts.
+- **Create SmartReply Contexts**: A SmartReply Context contains information that will be used by an AI LLM to create a tailored SmartReply based on the raided tweet's content, and the context you provide.
+- **Link Shared X Accounts**: Link shared X Accounts that can be used by all the admins in your Telegram group to send the SmartReply on X.
+- **Edit SmartReply Context**: Edit a SmartReply Context to be used for SmartReply Generation.
+- **Delete SmartReply Context**: Delete a SmartReply Context that is used for SmartReply Generation.
+
+Learn more about [SmartReply Settings](/smartreply) to see how the `/smartreply` command works.
+
+### Link X Account to Engage
+
+To be able to engage on raids (like, reply, retweet, smash, bookmark), you need to link an X Account with the `/link` command.
+<Warning>The `/link` command links an X account to your personal Telegram account only. To share an X account with other admins (for sending SmartReplies), use `/smartreply` instead.</Warning>
+- **Link 1 or more X Accounts**: Link an X Account to be used for engagements (or sending SmartReplies on X if you're an admin of the group).
+- **Set your Default X Account**: Set your Default X Account that will be used when clicking the raid buttons in the TG chat.
+- **Unlink X Account**: Unlink an X Account from being used for engagements.
+
+Learn more about [Linking X Accounts](/link) to see how the `/link` command works.
+
+### Media & Defaults
+
+You can view all your settings with `/settings`. You can set custom media that will be shown at different stages of the raid, such as when the raid is started, executing, or finished. You can also set the default targets for raids here.
+- **Set Media**: Easily set the media (video) to be shown at different stages of the raid, such as when the raid is started, executing, or finished.
+- **Set Defaults**: Set the default targets for raids, AutoRaids, and raids created via SmartReply.
+
+Learn more about [Media & Defaults Settings](/settings) to see how the `/settings` command works.
+
+### Pro, Add-ons & Limits
+
+With `/pro`, you can manage or purchase a Pro subscription and/or add-ons to get access to additional features and increase/view your limits.
+- **Pro Subscription**: Purchase a Pro 30D Subscription to get access to additional features and increase/view your limits.
+- **Add-ons**: Purchase add-ons (pay-as-you-go) that will increase your limits if your quotas have been reached for the month.
+
+Learn more about [Pro & Add-ons](/pro) in the Pro section.
+
+### Leaderboard (PRO)
+
+With `/leaderboard`, you or your users can view the top raiders by engagement type (likes, retweets, replies, bookmarks, etc).
+- **View Leaderboard**: View the leaderboard of your group with `/leaderboard`.
+- **Daily, Weekly, Monthly Timeframes**: View the leaderboard for the last 24 hours, the week, or the month.
+- **Engagement Type**: View the leaderboard for likes, retweets, replies, bookmarks, etc.
+
+Learn more about [Leaderboard](/leaderboard) here.
+
+### AutoRaid (PRO)
+
+With `/autoraid`, you can add KOLs that are scanned every minute on X for new Tweets which will be automatically raided when they are detected.
+- **Enable/Disable AutoRaid**: Enable or disable AutoRaid.
+- **Manage KOLs**: Add or remove KOLs that get scanned for new Tweets by entering their X username.
+- **View KOLs**: View the list of KOLs that are being scanned for new Tweets.
+- **View Daily AutoRaid Quota**: View the daily quota of AutoRaids that you can perform.
+
+Learn more about [AutoRaid](/autoraid) here.
+
+### Export Data (PRO)
+
+With `/export`, you can download a detailed XLSX report of raids, user metrics, and more.
+- **Download / Customise Exports**: Download a detailed, granular XLSX report of raids, user metrics, and more.
+- **View Past Exports**: View the past exports that you've made and download them again if needed.
+
+Learn more about [Export Data](/export) here.
