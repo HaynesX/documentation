@@ -40,19 +40,9 @@
                   "queue/overview",
                   "queue/add-to-queue",
                   "queue/reorder-queue",
-                  "queue/force-start-queue",
+                  "queue/force-start",
                   "queue/remove-from-queue",
                   "queue/clear-queue"
-                ]
-              },
-              {
-                "group": "SmartReply",
-                "pages": [
-                  "smartreply/overview",
-                  "smartreply/create-smartreply-context",
-                  "smartreply/link-shared-x-account",
-                  "smartreply/edit-smartreply-context",
-                  "smartreply/delete-smartreply-context"
                 ]
               },
               {
@@ -68,45 +58,49 @@
                 "group": "Engage on Raids",
                 "pages": [
                   "engage/overview",
-                  "engage/like-tweet",
-                  "engage/retweet-tweet",
-                  "engage/reply-tweet",
-                  "engage/bookmark-tweet",
-                  "engage/smash-tweet"
+                  "engage/like",
+                  "engage/retweet",
+                  "engage/bookmark",
+                  "engage/reply",
+                  "engage/smash"
                 ]
               },
               {
-                "group": "Defaults & Media",
+                "group": "SmartReply",
                 "pages": [
-                  "settings/overview",
-                  "settings/set-media",
-                  "settings/set-defaults"
+                  "smartreply/overview",
+                  "smartreply/create-smartreply-context",
+                  "smartreply/enable-smartreply",
+                  "smartreply/link-shared-x-account",
+                  "smartreply/generate-smartreplies",
+                  "smartreply/edit-smartreply-context",
+                  "smartreply/delete-smartreply-context"
                 ]
               },
-
-
               {
-                "group": "Pro & Add-ons",
+                "group": "⭐️ Pro & Add-ons",
                 "pages": [
-                  "pro/pricing"
+                  "pro/pricing-and-quotas"
                 ]
               },
               {
-                "group": "Leaderboard (PRO)",
+                "group": "⭐️ Leaderboard (PRO)",
                 "pages": [
                   "leaderboard/overview"
                 ]
               },
               {
-                "group": "AutoRaid (PRO)",
+                "group": "⭐️ AutoRaid (PRO)",
                 "pages": [
-                  "autoraid/overview"
+                  "autoraid/overview",
+                  "autoraid/add-kol",
+                  "autoraid/enable-autoraid"
                 ]
               },
               {
-                "group": "Export (PRO)",
+                "group": "⭐️ Exports (PRO)",
                 "pages": [
-                  "export/overview"
+                  "exports/overview"
                 ]
               }
             ]

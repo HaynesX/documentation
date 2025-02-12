@@ -1,0 +1,29 @@
+---
+title: 'Overview'
+description: "Discover how to manage the Raid Queue in Hyper, allowing you to re-order, add, remove, force-start, and preview raids in the queue."
+---
+
+<Frame>
+  <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full"
+  src="https://mintlify-videos.s3.eu-central-1.amazonaws.com/RaidQueueOverview.mp4"
+></video>
+</Frame>
+
+{/* Let's explore the key **Terminology** and raid types in Hyper. The bot supports three distinct types of raids:
+- **Standard Raids**: Raids made via the `/raid` command are the core function of Hyper, and often referred to as "Standard Raids". It allows you to start or queue a raid with a single command by providing a URL of the tweet you want to raid, and you can configure it to your desired settings. **This section will cover how to use the `/raid` command.**
+- **SmartReply Raids**: Raids made via SmartReply are the second type of raid. If enabled, admins can AI-generate a Reply to a tweet which is currently being raided. Once the AI-generated reply is posted on X (via a Linked X Account), the reply will be raided and overrwrite (cancel) the current raid. To understand how SmartReply works, read the [SmartReply](/smartreply) section.
+- **AutoRaid Raids (PRO)**: Raids made via AutoRaid are the third type of raid. It allows you to add KOLs that are scanned every minute on X for new Tweets which will be automatically raided when they are detected. To understand how AutoRaid works, read the [AutoRaid](/autoraid) section. */}
+
+### Queue Management
+
+You can manage the queue via the `/queue` command. Raids added to the queue via /raid or AutoRaid will be started in the order they were added after every raid has finished.
+- **Reorder Queue**: Easily reorder the queue by dragging and dropping raids using the UI.
+- **Force Start**: Force start a raid in the queue, even if it's not the first position.
+- **Remove from Queue**: Remove a raid from the queue with ease.
+- **Preview Tweet**: Preview the tweet that will be raided before it's executed.
+- **Clear Queue**: Clear the entire queue.

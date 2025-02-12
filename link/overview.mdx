@@ -1,0 +1,44 @@
+---
+title: 'Overview'
+description: "Discover how to Link your X Account to HyperRaidBot to interact with raids and more."
+---
+
+<Frame>
+  <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full"
+  src="https://mintlify-videos.s3.eu-central-1.amazonaws.com/LinkXAccount.mp4"
+></video>
+</Frame>
+
+{/* Let's explore the key **Terminology** and raid types in Hyper. The bot supports three distinct types of raids:
+- **Standard Raids**: Raids made via the `/raid` command are the core function of Hyper, and often referred to as "Standard Raids". It allows you to start or queue a raid with a single command by providing a URL of the tweet you want to raid, and you can configure it to your desired settings. **This section will cover how to use the `/raid` command.**
+- **SmartReply Raids**: Raids made via SmartReply are the second type of raid. If enabled, admins can AI-generate a Reply to a tweet which is currently being raided. Once the AI-generated reply is posted on X (via a Linked X Account), the reply will be raided and overrwrite (cancel) the current raid. To understand how SmartReply works, read the [SmartReply](/smartreply) section.
+- **AutoRaid Raids (PRO)**: Raids made via AutoRaid are the third type of raid. It allows you to add KOLs that are scanned every minute on X for new Tweets which will be automatically raided when they are detected. To understand how AutoRaid works, read the [AutoRaid](/autoraid) section. */}
+
+### Link X Account to Engage
+
+To be able to engage on raids (like, reply, retweet, smash, bookmark), you need to link an X Account with the `/link` command.
+- **Link 1 or more X Accounts**: Link an X Account to be used for engagements (or sending SmartReplies on X if you're an admin of the group).
+- **Set your Default X Account**: Set your Default X Account that will be used when clicking the raid buttons in the TG chat.
+- **Unlink X Account**: Unlink an X Account from being used for engagements.
+
+
+### Link X Account to Post SmartReplies on X (Admins Only)
+
+There are two ways to link an X Account for posting SmartReplies:
+
+1. Via the `/smartreply` page 
+   - This allows sharing the X Account with other admins in the group
+   - Recommended when multiple admins need access to the same X Account
+
+2. Using the `/link` command
+   - This links the X Account to your personal Telegram account only and won't be shared with other admins
+   - Best for personal use when account sharing isn't needed
+
+<Info>
+  You can use both methods to link the same X account if you want to, resulting in having both the X Account linked to your personal Telegram account, and shared with other admins in the group.
+</Info>
