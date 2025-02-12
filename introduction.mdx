@@ -1,71 +1,107 @@
 ---
-title: Introduction
-description: "Welcome to the home of your new documentation"
+title: 'Introduction'
+description: "Learn how to use Hyper's core features"
 ---
 
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.png"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.png"
-  alt="Hero Dark"
-/>
+## Overview
 
-## Setting up
+Hyper is a sophisticated Telegram Bot designed to streamline and optimize Twitter engagement campaigns. With its intuitive interface, robust features, and exceptional performance, it offers a seamless experience while remaining highly customizable.
 
-The first step to world-class documentation is setting up your editing environments.
+- **Intuitive Interface**: Hyper provides a user-friendly interface that uses a TG Mini App under the hood, allowing for a *clutter-free chat*, and a minimal, no-bullsh*t user experience. 
+- **Revolutionary Features**: The bot offers a wide range of features that have been designed and continiously refined to make raiding easier, more efficient and growth-focused.
+- **Exceptional Performance**: Hyper is.. Hyperspeed! We've optimized the bot to be as fast as possible, with a focus on speed and efficiency to ensure raids are dequeued as fast as possible.
+- **Highly Customizable**: Hyper allows you to tailor the bot to your specific needs, making it a versatile tool for various Twitter engagement strategies.
 
-<CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    Get your docs set up locally for easy development
-  </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
-  </Card>
-</CardGroup>
+Each feature builds on top of the other, and is designed to work together to create a seamless experience. Let's explore how to use each key feature effectively.
 
-## Make it yours
+### Raid Management
 
-Update your docs to your brand and add valuable content for the best user conversion.
+Raids made using the `/raid` command is a core function of Hyper. It allows you to start or queue a raid, and configure it to your desired settings.
+- **Modify Targets**: Adjust the engagement targets (or defaults) for raids, such as the number of likes, retweets, replies, bookmarks, switch the target mode, and enable/disable them as you see fit.
+- **Adding to Queue**: Easily add a raid to your raid queue which will be started in the order they were added after every raid has finished.
+- **Cancelling Raids**: Learn how to cancel an active raid.
 
-<CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
-    Customize your docs to your company's colors and brands
-  </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/content/components/accordions"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/customers"
-  >
-    Check out our showcase of our favorite documentation
-  </Card>
-</CardGroup>
+Learn more about [Managing Raids](/raids) to see how the `/raid` command works.
+
+### Queue Management
+
+You can manage the queue via the `/queue` command. Raids added to the queue via /raid or AutoRaid will be started in the order they were added after every raid has finished.
+- **Reorder Queue**: Easily reorder the queue by dragging and dropping raids using the UI.
+- **Force Start**: Force start a raid in the queue, even if it's not the first position.
+- **Remove from Queue**: Remove a raid from the queue with ease.
+- **Preview Tweet**: Preview the tweet that will be raided before it's executed.
+- **Clear Queue**: Clear the entire queue.
+
+Learn more about [Managing the Queue](/queue) to see how the `/queue` command works.
+
+### SmartReply
+
+You can setup & manage SmartReply Settings by using the `/smartreply` command. Manage *SmartReply Contexts* that will be used to generate SmartReplies on active raids, and Link shared X Accounts.
+- **Create SmartReply Contexts**: A SmartReply Context contains information that will be used by an AI LLM to create a tailored SmartReply based on the raided tweet's content, and the context you provide.
+- **Link Shared X Accounts**: Link shared X Accounts that can be used by all the admins in your Telegram group to send the SmartReply on X.
+- **Edit SmartReply Context**: Edit a SmartReply Context to be used for SmartReply Generation.
+- **Delete SmartReply Context**: Delete a SmartReply Context that is used for SmartReply Generation.
+
+Learn more about [SmartReply Settings](/smartreply) to see how the `/smartreply` command works.
+
+### Link X Account to Engage
+
+To be able to engage on raids (like, reply, retweet, smash, bookmark), you need to link an X Account with the `/link` command.
+<Warning>The `/link` command links an X account to your personal Telegram account only. To share an X account with other admins (for sending SmartReplies), use `/smartreply` instead.</Warning>
+- **Link 1 or more X Accounts**: Link an X Account to be used for engagements (or sending SmartReplies on X if you're an admin of the group).
+- **Set your Default X Account**: Set your Default X Account that will be used when clicking the raid buttons in the TG chat.
+- **Unlink X Account**: Unlink an X Account from being used for engagements.
+
+Learn more about [Linking X Accounts](/link) to see how the `/link` command works.
+
+### Engage on Raids
+
+You can engage on raids by clicking the buttons in the TG chat.
+- **Like**: Like the tweet being raided.
+- **Reply**: Reply to the tweet being raided.
+- **Retweet**: Retweet the tweet being raided.
+- **Bookmark**: Bookmark the tweet being raided.
+- **Smash**: Smash the tweet being raided.
+
+Learn more about [Engaging on Raids](/engage) to see how the buttons work.
+
+### Media
+
+You can view all your settings with `/settings`. You can set custom media that will be shown at different stages of the raid, such as when the raid is started, executing, or finished. You can also set the default targets for raids here.
+- **[Set Media](/raids/media)**: Easily set the media (video) to be shown at different stages of the raid, such as when the raid is started, executing, or finished.
+- **Set Defaults**: Set the default targets for raids, AutoRaids, and raids created via SmartReply with `/settings`.
+
+### Pro, Add-ons & Limits
+
+With `/pro`, you can manage or purchase a Pro subscription and/or add-ons to get access to additional features and increase/view your limits.
+- **Pro Subscription**: Purchase a Pro 30D Subscription to get access to additional features and increase/view your limits.
+- **Add-ons**: Purchase add-ons (pay-as-you-go) that will increase your limits if your quotas have been reached for the month.
+
+Learn more about [Pro & Add-ons](/pro) in the Pro section.
+
+### Leaderboard (PRO)
+
+With `/leaderboard`, you or your users can view the top raiders by engagement type (likes, retweets, replies, bookmarks, etc).
+- **View Leaderboard**: View the leaderboard of your group with `/leaderboard`.
+- **Daily, Weekly, Monthly Timeframes**: View the leaderboard for the last 24 hours, the week, or the month.
+- **Engagement Type**: View the leaderboard for likes, retweets, replies, bookmarks, etc.
+
+Learn more about [Leaderboard](/leaderboard) here.
+
+### AutoRaid (PRO)
+
+With `/autoraid`, you can add KOLs that are scanned every minute on X for new Tweets which will be automatically raided when they are detected.
+- **Enable/Disable AutoRaid**: Enable or disable AutoRaid.
+- **Manage KOLs**: Add or remove KOLs that get scanned for new Tweets by entering their X username.
+- **View KOLs**: View the list of KOLs that are being scanned for new Tweets.
+- **View Daily AutoRaid Quota**: View the daily quota of AutoRaids that you can perform.
+
+Learn more about [AutoRaid](/autoraid) here.
+
+### Export Data (PRO)
+
+With `/export`, you can download a detailed XLSX report of raids, user metrics, and more.
+- **Download / Customise Exports**: Download a detailed, granular XLSX report of raids, user metrics, and more.
+- **View Past Exports**: View the past exports that you've made and download them again if needed.
+
+Learn more about [Export Data](/export) here.

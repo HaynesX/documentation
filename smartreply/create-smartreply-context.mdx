@@ -1,0 +1,66 @@
+---
+title: 'Create a SmartReply Context'
+description: "Learn how to create a SmartReply Context which contains information tailored to how you want replies to be generated."
+---
+
+<Warning>
+  You MUST set up a Context before you can generate SmartReplies.
+</Warning>
+
+### What is a SmartReply Context?
+A SmartReply Context contains information that will be used by an AI LLM to create a tailored SmartReply based on the raided tweet's content, and the context you provide.
+
+For example, you can create a SmartReply Context for a Crypto Project, and include information about the project in the context. This will allow the AI LLM to generate SmartReplies that are tailored to the specific Crypto Project, as well as the tweet in the current raid.
+
+## Create a SmartReply Context via `/smartreply`
+1. Enter the `/smartreply` command
+2. Press the `[⚙️ Configure SmartReply]` button
+3. Go to the `[SmartReply]` tab
+4. Press the `[Create Context]` button
+5. Enter the Context Name which will be used to identify the context to use when generating SmartReplies.
+6. (Optionally) Enter your Crypto Project details that will be referenced when generating SmartReplies.
+7. (Optionally) Enter a Project Description that will be used to generate SmartReplies.
+8. Select the AI LLM Model to use for SmartReply Generation.
+9. Enter the Reply Tone of how you want generated SmartReplies to sound like.
+10. Select/Deselect some Reply Preferences.
+11. Enter any other Custom Instructions you want to include when generating SmartReplies.
+12. (Optionally) Generate Example SmartReplies by pressing the `[Generate Example SmartReplies]` button, and customise the example reply-to tweet.
+13. Press the `[Create Context]` button to create the SmartReply Context.
+14. Congratulations! You've created a SmartReply Context and can now generate SmartReplies on active raids (after enabling via the Toggle).
+
+
+<Frame>
+  <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full"
+  src="https://mintlify-videos.s3.eu-central-1.amazonaws.com/CreateSmartReplyContext.mp4"
+></video>
+</Frame>
+
+
+{/* <CardGroup>
+
+<Card title="Setting Targets" icon="bullseye-arrow" href="/essentials/markdown">
+  Set tweet engagement targets on your raid.
+</Card>
+
+<Card
+  title="Queue Raids"
+  icon="list-ol"
+  href="/essentials/images"
+>
+  Add, re-order, force-start, cancel or clear raids in the queue.
+</Card>
+
+<Card
+  title="Cancelling Raids"
+  icon="ban"
+  href="/essentials/reusable-snippets"
+>
+  Learn how to cancel an active raid.
+</Card>
+
+</CardGroup> */}

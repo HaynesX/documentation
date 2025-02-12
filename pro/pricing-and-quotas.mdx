@@ -1,0 +1,101 @@
+---
+title: 'Pricing & Quotas'
+description: "Understand how Pro & PAYG Add-ons work, and the quotas that reset at different intervals. Get started via `/pro`."
+---
+
+<Info>**Purchase Pro (30D) & Add-ons with the `/pro` command.**</Info>
+
+## Overview
+
+HyperRaidBot offers flexible pricing options to suit your needs:
+1. **Free Tier** - Basic quotas for standard groups
+2. **Pro Tier** - Enhanced quotas and exclusive features
+3. **Add-ons** - Pay-as-you-go credits for additional capacity
+
+### Free Tier Quotas
+
+| Feature | Monthly Quota | Reset Period |
+| ------- | ------------ | ------------ |
+| Raids | 1,500 | Monthly |
+| OpenAI SmartReply Generations | 10 | Monthly |
+
+<Info>
+  Monthly quotas reset at the beginning of each month for Free Groups.
+</Info>
+
+## ⭐️ Pro Tier (30 Days)
+
+### Enhanced Quotas
+
+| Feature | Free Tier | Pro Tier | Reset Period |
+| ------- | --------- | -------- | ------------ |
+| Raids | 1,500 | 4,500 | Monthly |
+| OpenAI SmartReply Generations | 10 | 15,000 | Monthly |
+
+### Exclusive Features
+Pro Tier unlocks premium features that aren't available with Add-ons:
+
+- **[AutoRaid](/autoraid/overview)** - Automatically raid new tweets from specified KOLs.
+- **[Leaderboard](/leaderboard/overview)** - Track and display top raiders in your group
+- **[Exports](/exports/overview)** - Download detailed raid analytics and statistics
+
+<Note>
+Purchasing multiple Pro Tiers extends the duration but **DOES NOT stack the quotas.** For example:
+- Buying 3x Pro Tier = 90 days of Pro benefits
+- Quotas remain at 4,500 raids and 15,000 generations per month
+- Quotas still reset monthly
+</Note>
+
+## Pay-as-you-go Add-ons
+
+Add-ons provide additional capacity when monthly quotas are exhausted. They never expire and work for both Free and Pro tier groups.
+
+| Add-on | Capacity |
+| ------ | -------- |
+| Additional Raids | 1,500 raids |
+| Additional SmartReply Generations | 7,500 generations |
+
+### How Add-ons Work
+
+1. Add-ons only get consumed after your monthly quota is exhausted
+2. They never expire until used
+3. Can be purchased anytime via `/pro`
+4. Work alongside both Free and Pro tier quotas
+
+### Example Scenario
+
+Let's say a Pro tier group has:
+- Monthly quota: 4,500 raids
+- Purchased add-on: 1,500 raids
+
+If they use 5,000 raids in a month:
+- 4,500 raids come from their monthly Pro quota
+- 500 raids come from their add-on balance
+- 1,000 raids remain in their add-on balance
+- Next month, they start fresh with 4,500 monthly raids again.
+- Add-ons are never reset, so they can be used again next month if quota is exhausted again.
+
+## Managing Your Subscription
+
+Use the `/pro` command to:
+- View current quotas and usage
+- Check subscription status and expiry
+- Purchase Pro tier or Add-ons
+- Monitor Add-on balances
+
+<Warning>
+When Pro tier expires, groups return to Free tier quotas (1,500 raids and 10 generations per month).
+</Warning>
+
+## Other Quotas / Limits
+
+### AutoRaid Daily Limit
+- Only 80 AutoRaids (PRO) can be launched per day. Resets daily.
+
+### X Account Engagement Limits
+| Engagement Type | Limit |
+| -------------- | ----- |
+| Likes | 180 per day |
+| Replies/SmartReplies | 90 per day |
+| Retweets | 5 every 15 minutes |
+| Bookmarks | 5 every 15 minutes |

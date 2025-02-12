@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "HyperRaidBot",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#F6B724",
+    "light": "#F6B724",
+    "dark": "#F6B724"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -16,39 +16,101 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "welcome",
+              "installation",
+              "introduction"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Bot",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              {
+                "group": "Raids",
+                "pages": [
+                  "raids/overview",
+                  "raids/create-raid",
+                  "raids/setting-targets",
+                  "raids/cancel-raid",
+                  "raids/media"
+                ]
+              },
+              {
+                "group": "Queue",
+                "pages": [
+                  "queue/overview",
+                  "queue/add-to-queue",
+                  "queue/reorder-queue",
+                  "queue/force-start",
+                  "queue/remove-from-queue",
+                  "queue/clear-queue"
+                ]
+              },
+              {
+                "group": "Link X Accounts",
+                "pages": [
+                  "link/overview",
+                  "link/link-x-account",
+                  "link/set-default-x-account",
+                  "link/unlink-x-account"
+                ]
+              },
+              {
+                "group": "Engage on Raids",
+                "pages": [
+                  "engage/overview",
+                  "engage/like",
+                  "engage/retweet",
+                  "engage/bookmark",
+                  "engage/reply",
+                  "engage/smash"
+                ]
+              },
+              {
+                "group": "SmartReply",
+                "pages": [
+                  "smartreply/overview",
+                  "smartreply/create-smartreply-context",
+                  "smartreply/enable-smartreply",
+                  "smartreply/link-shared-x-account",
+                  "smartreply/generate-smartreplies",
+                  "smartreply/edit-smartreply-context",
+                  "smartreply/delete-smartreply-context"
+                ]
+              },
+              {
+                "group": "⭐️ Pro & Add-ons",
+                "pages": [
+                  "pro/pricing-and-quotas"
+                ]
+              },
+              {
+                "group": "⭐️ Leaderboard (PRO)",
+                "pages": [
+                  "leaderboard/overview"
+                ]
+              },
+              {
+                "group": "⭐️ AutoRaid (PRO)",
+                "pages": [
+                  "autoraid/overview",
+                  "autoraid/add-kol",
+                  "autoraid/enable-autoraid"
+                ]
+              },
+              {
+                "group": "⭐️ Exports (PRO)",
+                "pages": [
+                  "exports/overview"
+                ]
+              }
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "More",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "support",
+              "FAQ",
+              "developer"
             ]
           }
         ]
@@ -57,45 +119,45 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Add Bot to Group",
+          "href": "https://t.me/HyperRaidBot?startgroup=true&admin",
+          "icon": "plus"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://t.me/MellowManCommunity",
+          "icon": "telegram"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "$MELLOW",
+          "href": "https://app.uniswap.org/swap?outputCurrency=0x6942040b6d25D6207E98f8E26C6101755D67Ac89&chain=ethereum",
+          "icon": "ethereum"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "images/logo.png",
+    "dark": "images/logo.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://t.me/MellowManRaidBotSupport"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Add Bot to Group",
+      "href": "https://t.me/HyperRaidBot?startgroup=true&admin"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/mellow0x69",
+      "website": "https://www.furiesmellow0x69.com/",
+      "telegram": "https://t.me/MellowManCommunity"
     }
   }
 }
