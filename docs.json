@@ -108,9 +108,7 @@
           {
             "group": "More",
             "pages": [
-              "support",
-              "FAQ",
-              "developer"
+              "more/developer"
             ]
           }
         ]
