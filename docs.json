@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "@yperRaidBot",
+  "name": "HyperRaidBot",
   "colors": {
     "primary": "#F6B724",
     "light": "#F6B724",
@@ -14,7 +14,7 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started (Admins)",
+            "group": "Get Started",
             "pages": [
               "welcome",
               "installation",
@@ -28,26 +28,95 @@
                 "group": "Raids",
                 "pages": [
                   "raids/overview",
-                  "raids/link",
-                  "raids/smartreply",
-                  "raids/settings",
-                  "raids/pro",
-                  "raids/leaderboard",
-                  "raids/autoraid",
-                  "raids/export"
+                  "raids/create-raid",
+                  "raids/setting-targets",
+                  "raids/cancel-raid",
+                  "raids/media"
+                ]
+              },
+              {
+                "group": "Queue",
+                "pages": [
+                  "queue/overview",
+                  "queue/add-to-queue",
+                  "queue/reorder-queue",
+                  "queue/force-start-queue",
+                  "queue/remove-from-queue",
+                  "queue/clear-queue"
+                ]
+              },
+              {
+                "group": "SmartReply",
+                "pages": [
+                  "smartreply/overview",
+                  "smartreply/create-smartreply-context",
+                  "smartreply/link-shared-x-account",
+                  "smartreply/edit-smartreply-context",
+                  "smartreply/delete-smartreply-context"
+                ]
+              },
+              {
+                "group": "Link X Accounts",
+                "pages": [
+                  "link/overview",
+                  "link/link-x-account",
+                  "link/set-default-x-account",
+                  "link/unlink-x-account"
+                ]
+              },
+              {
+                "group": "Engage on Raids",
+                "pages": [
+                  "engage/overview",
+                  "engage/like-tweet",
+                  "engage/retweet-tweet",
+                  "engage/reply-tweet",
+                  "engage/bookmark-tweet",
+                  "engage/smash-tweet"
+                ]
+              },
+              {
+                "group": "Defaults & Media",
+                "pages": [
+                  "settings/overview",
+                  "settings/set-media",
+                  "settings/set-defaults"
+                ]
+              },
+
+
+              {
+                "group": "Pro & Add-ons",
+                "pages": [
+                  "pro/pricing"
+                ]
+              },
+              {
+                "group": "Leaderboard (PRO)",
+                "pages": [
+                  "leaderboard/overview"
+                ]
+              },
+              {
+                "group": "AutoRaid (PRO)",
+                "pages": [
+                  "autoraid/overview"
+                ]
+              },
+              {
+                "group": "Export (PRO)",
+                "pages": [
+                  "export/overview"
                 ]
               }
             ]
           },
           {
-            "group": "Get Started (Users)",
+            "group": "More",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "support",
+              "FAQ",
+              "developer"
             ]
           }
         ]
@@ -56,45 +125,45 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Add Bot to Group",
+          "href": "https://t.me/HyperRaidBot?startgroup=true&admin",
+          "icon": "plus"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://t.me/MellowManCommunity",
+          "icon": "telegram"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "$MELLOW",
+          "href": "https://app.uniswap.org/swap?outputCurrency=0x6942040b6d25D6207E98f8E26C6101755D67Ac89&chain=ethereum",
+          "icon": "ethereum"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "images/logo.png",
+    "dark": "images/logo.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://t.me/MellowManRaidBotSupport"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Add Bot to Group",
+      "href": "https://t.me/HyperRaidBot?startgroup=true&admin"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/mellow0x69",
+      "website": "https://www.furiesmellow0x69.com/",
+      "telegram": "https://t.me/MellowManCommunity"
     }
   }
 }
