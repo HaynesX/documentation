@@ -122,14 +122,19 @@
           "icon": "plus"
         },
         {
-          "anchor": "Community",
-          "href": "https://t.me/MellowManCommunity",
-          "icon": "telegram"
+          "anchor": "Roadmap",
+          "href": "https://hyper.featurebase.app/roadmap",
+          "icon": "road"
         },
         {
           "anchor": "$MELLOW",
           "href": "https://app.uniswap.org/swap?outputCurrency=0x6942040b6d25D6207E98f8E26C6101755D67Ac89&chain=ethereum",
           "icon": "ethereum"
+        },
+        {
+          "anchor": "Feedback",
+          "href": "https://hyper.featurebase.app/",
+          "icon": "question"
         }
       ]
     }
