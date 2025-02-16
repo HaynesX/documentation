@@ -78,6 +78,14 @@
                 ]
               },
               {
+                "group": "DeepReply",
+                "pages": [
+                  "deepreply/overview",
+                  "deepreply/enable-deepreply",
+                  "deepreply/send-deepreply"
+                ]
+              },
+              {
                 "group": "⭐️ Pro & Add-ons",
                 "pages": [
                   "pro/pricing-and-quotas"
